@@ -1,0 +1,18 @@
+[package]
+name = "rustySpamDetector"
+version = "0.1.0"
+
+edition = "2021"
+authors = ["mohamamdreza-ashouri <ashourics@protonmail.com>"]
+description = "A lightweight bayesian spam classifier for rust project (including blockchain apps) created by Mo Ashouri (Founder ByteScan.net)"
+homepage = "https://bytescan.net"
+repository = "https://github.com/mohamamdreza-ashouri/rustySpamDetector"
+keywords = ["bayesian", "spam", "detector", "rust", "blockchain","bytescan", "security"]
+categories = ["security"]
+readme = "README.md"
+
+
+[dependencies]
+unicode-segmentation = "1.7.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
